@@ -1,0 +1,23 @@
+USED CARS
+
+id - INT - PRIMARY_KEY(NOTNULL, UNIQUE) - AUTO_INCREMENT
+brand - VARCHAR (15) - NOTNULL 
+model - VAARCHAR (20) - NOTNULL - INDEX
+variant - VARCHAR(10) - NOTNULL
+poster - VARCHAR(200) - NOTNULL - DEFAULT("img/src/default.jpg")
+body_type - VARCHAR(10) - NOTNULL
+body_color - VARCHAR(15) - NULL
+interior _color - VARCHAR(15) - NULL
+fuel_type - VARCHAR(15) - NOTNULL
+first_registration - YEAR - NOTNULL
+previous_owners - TINYINT - NOTNULL
+had_accident - TINYINT - NOTNULL
+euro_emmission_class - TINYINT - NOTNULL
+price - DECIMAL (7, 0) 
+mileage - INT - NOTNULL
+power - SMALLINT - NOTNULL
+gear - VARCHAR(10) - NOTNULL
+nr_of_doors -  TINYINT - NULL
+nr_of_seats - TINYINT - NULL
+Seller - VARCHAR(10) - NOTNULL
+vehicle_condition - VARCHAR(10) - NOTNULL
